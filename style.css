@@ -1,0 +1,239 @@
+*
+{
+    margin:0;
+   padding:0;
+   text-decoration: none;
+   font-family:'Poppins',sans-serif;
+}
+body{
+    color:aliceblue;
+    background-color:#2e2c3a;
+    width:100%;
+    height:100vh;
+    font-size:20px;
+}
+.homepg{
+    font-size: 30px;
+}
+header{
+    position:fixed;
+    top:0;
+    right:0;
+    z-index: 100;
+    background-color: rgba(105, 105, 105,0.5);
+    border-radius: 10px;
+   }
+nav a{
+margin:70px;
+}
+#logo{
+    font-size: 30px;
+    position: fixed;
+    top:0;
+    left:0;
+    margin-left: 100px;
+    cursor:pointer;
+}
+#logo a{
+    color:magenta;
+    font-family:"Bebas Neue",sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+#logo a:hover{
+    font-size:44px;
+}
+
+.nav_bar a{
+    color:aliceblue;
+}
+
+.nav_bar a:hover{
+    color:magenta;
+    transition: 0.3s ease-in-out;
+}
+
+.nav_bar{
+    background-color:transparent;
+    padding:10px;
+    width:100%;
+}
+.home{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.home-content{
+    margin-top: 200px;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_img img{
+width:433px;
+height:577px;
+
+ }
+.socials{
+    display: flex;
+    margin:20px;
+}
+.socials a{
+    text-decoration: none;
+    border:2px solid magenta;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    color:aliceblue;
+    font-size:24px;
+    margin:10px;
+    padding: 10px;
+}
+.socials a:hover{
+ transition: 0.3s ease-in-out;
+ background-color: magenta;
+}
+.about img{
+    height:400px;
+    width:400px;
+    border:6px solid magenta;
+box-shadow: 4px 4px 4px magenta;
+border-radius: 50%;
+margin:20px;
+}
+.pro a{
+    color:#ff00ff;
+    text-decoration-line: underline;
+}
+
+#form
+{
+    background-color: rgba(105, 105, 105,0.5);
+    text-align: center;
+    padding:10px;
+    border-radius:8px;
+    margin:0 auto;
+    margin-top:20px;
+    width:50%;
+    backdrop-filter: blur(30px);
+}
+input{
+    padding:10px;
+    border-radius: 15px;
+    margin:10px;
+    width:200px;
+    font-size: 20px;
+}
+input[type="submit"]
+{
+    width:100%;
+    cursor: pointer;
+    background-color: #04AA6D;
+    margin:10px;
+}
+input[type="submit"]:hover{
+background-color: #008CBA;
+}
+label{
+    display:block;
+    font-size:20px;
+    margin: 10px;
+}
+h1{
+    border:2px solid goldenrod;
+    box-shadow: 2px 2px 2px whitesmoke;
+    border-radius: 10px;
+    text-align:center;
+    color:magenta;
+    margin: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+    background-color: dimgray;
+    text-align: center;
+}
+
+
+.projects{
+    display:flex;
+        display: flex;
+        /* width:600px;
+        height:300px; */
+        border-radius:10px;
+     gap:20px;
+}
+.pro{
+    text-align: justify;
+    padding:10px;
+    background-color: rgba(105, 105, 105,0.5);
+    backdrop-filter: blur(30px);
+    border-radius:10px;
+    flex:1;/*transition part*/
+    height:100%;
+    transition: flex 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+.pro:hover{
+    flex:3;
+}
+h3{
+    border:2px solid goldenrod;
+    box-shadow: 2px 2px 2px whitesmoke;
+    border-radius: 10px;
+    text-align:center;
+    color:magenta;
+}
+.pro img{
+    height: 400px;
+    width:400px;
+    border-radius:10px;
+    margin:20px;
+    margin-left:50px;
+   
+}
+.about{
+    padding:10px;
+    background-color: rgba(105, 105, 105,0.5);
+    backdrop-filter: blur(30px);
+    border-radius:10px;
+
+}
+
+.writing-text{
+    
+    white-space:nowrap;/*the text goes on to the next line without this*/
+    overflow: hidden;/*hides the overflowed content - without this everything will appear at once but with this it appears one by one*/
+    animation:typewriter/* keyframe identifier-arbitrary name*/ 4s steps(9) infinite alternate,
+     blink /*keyframe identifier-arbitrary*/ 500ms steps(9) infinite normal;
+     border-right:2px solid magenta;
+     margin-left:200px;
+}
+@keyframes typewriter {
+    from{
+        width:0;
+    }
+   to{
+        width:176px;
+    }
+}
+@keyframes blink {
+    from{
+        margin-right:magenta;
+    }
+    to{
+        margin-right:transparent;
+    }
+    
+}
