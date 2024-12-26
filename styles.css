@@ -168,7 +168,6 @@ footer{
 
 .projects{
     display:flex;
-        display: flex;
         /* width:600px;
         height:300px; */
         border-radius:10px;
@@ -182,7 +181,7 @@ footer{
     border-radius:10px;
     flex:1;/*transition part*/
     height:100%;
-    transition: flex 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
     
 }
