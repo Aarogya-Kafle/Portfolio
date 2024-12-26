@@ -181,7 +181,7 @@ footer{
     border-radius:10px;
     flex:1;/*transition part*/
     height:100%;
-    transition: all 500ms ease-in-out;
+    transition: flex 500ms ease-in-out;
     cursor: pointer;
     
 }
