@@ -21,7 +21,7 @@ header{
     right:0;
     z-index: 100;
     background-color: rgba(105, 105, 105,0.5);
-    border-radius: 0.6250px;
+    border-radius:10px;
    }
 nav a{
 margin:70px;
