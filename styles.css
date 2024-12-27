@@ -237,3 +237,87 @@ h3{
     }
     
 }
+/* for making the page responsive we are adding media queries */
+@media (max-width: 768px) {
+    .home {
+        margin: 50px;
+    }
+
+    .home-content {
+        margin-top: 100px;
+    }
+
+    .index {
+        flex-direction: column;
+    }
+
+    #logo {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 18px;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    #form {
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .pro {
+        max-width: 100%;
+    }
+
+    .writing-text {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo a {
+        font-size: 24px;
+    }
+
+    .nav_bar a {
+        font-size: 18px;
+    }
+
+    .socials a {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    h1, h3 {
+        font-size: 18px;
+    }
+
+    .writing-text {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+}
